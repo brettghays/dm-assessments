@@ -73,11 +73,7 @@ describe('arrays', function () {
 			expect(refVsVal).toBeDefined()
 		})
 		it('should be correct', function () {
-			var correct = `Passing by reference points to the same object in memory;
-                pass by value creates a new object in memory with the same 
-                values. A change made to a reference copy will change both 
-                the copy and the original; a copy made by value will only 
-                change the copy's values`
+			var correct = `Passing by reference points to the same object in memory; pass by value creates a new object in memory with the same values. A change made to a reference copy will change both the copy and the original; a copy made by value will only change the copy's values`
 			expect(refVsVal).toEqual(correct);
 		})
 	})
