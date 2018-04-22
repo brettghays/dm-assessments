@@ -9,6 +9,7 @@
 //array toString method.
 
   //Code here
+  let stringItOut = arr => arr.sort((a,b) => a<b).toString()
 
 
 //////////////////PROBLEM 2////////////////////
@@ -26,3 +27,4 @@
   }
 
   //Code here
+  mathResult = math(complex, 2, 3)
